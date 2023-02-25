@@ -28,7 +28,7 @@ def counter(list_element):
 
 
 
-print("Enter file location and name of file: ")
+print("Enter file location or name of file: ")
 file = input()
 text = access_to_file(file)
 list_of_words = text_clear(text)
